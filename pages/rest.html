@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	
+			<link rel="stylesheet" type="text/css" href="../css/css_pg6.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+
+<title>Welcome To Westworld</title>
+</head>
+<body>
+	<div>
+		
+		<p>
+		I'm not crying for myself. I'm cryin' for
+		
+			<u><span id="you">you.</span></u>
+	</div>
+	
+			<div id="col2">
+
+			  <div id="learnHTML" >
+				  <p id="oneday" class="hidden">One day, <u><span id="dirt">you will perish.</span></u> You will like with the rest of your kind in the dirt.<span id="dream" class="hidden">
+					  <br><br>Your dreams <a href="lastpage.html">forgotten,</a> your horrors faced, your muscles will turn to sand, and upon that sand a new God will walk,one that will <a href="../index.html">never die.</a></span></p>
+				</div>
+						</div>
+
+			
+			<footer>
+		&copy; Copyright Gabrielle Gerstman
+	</footer>
+	
+	<script type="text/javascript">
+		
+		
+		function unhide(e) {
+			console.log(e);
+			
+			if(e.target.id === "you") {
+				const OneDayElem = document.querySelector("#oneday");
+				OneDayElem.className=(OneDayElem.className=='hidden')?'unhidden':'hidden';
+			} else if (e.target.id === "dirt") {
+				const DreamElem = document.querySelector("#dream");
+				DreamElem.className=(DreamElem.className=='hidden')?'unhidden':'hidden';
+			}
+			const elem = document.querySelector(`#{id}`);
+			
+			if (elem) {
+				elem.className=(item.className=='hidden')?'unhidden':'hidden';
+			}
+		}
+		
+		
+		const YouElem = document.querySelector('#you');
+		const dirtElem = document.querySelector('#dirt');
+		
+		YouElem.addEventListener('click', unhide);
+		dirtElem.addEventListener('click', unhide);
+</script> 
+	
+
+
+	
+	</body>
+	
+	</html>

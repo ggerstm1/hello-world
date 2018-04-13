@@ -1,0 +1,60 @@
+<!doctype html>
+<html><head>
+<meta charset="UTF-8">
+			<link rel="stylesheet" type="text/css" href="../css/css_pg7.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
+<title>Welcome To Westworld</title>
+
+</head>
+		
+<body>
+		<div>
+	<p>Oh yeah, <span onclick="myFunction()"><a href="javascript:unhide('learnHTML');">cue</a></span> the 
+		
+		waterworks Dolores.</p>
+	</div>
+	
+	
+				<div id="col2">
+
+			  <div id="learnHTML" class="hidden">
+				  
+				  <p>It's about time you <a href="rest.html">realize</a> the<br> futility of your <a href="lastpage.html">situation.</a></p>
+				</div> 
+					
+						</div>
+		
+	
+				
+			<footer>
+		&copy; Copyright Gabrielle Gerstman
+	</footer>
+	
+	
+	<script type="text/javascript">
+
+  function unhide(divID) {
+
+    var item = document.getElementById(divID);
+
+    if (item) {
+
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+
+    }
+
+  }
+
+</script> 
+	
+<script>
+function myFunction() {
+    document.body.style.backgroundImage = "url ('../images/crying.jpg;)"
+    document.body.style.backgroundImage = "url('../images/crying.gif')"
+
+}
+</script>
+	
+</body>
+</html>
